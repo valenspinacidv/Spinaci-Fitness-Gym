@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinaci Fitness & Gym</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/logo-gym.png">
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/003e8723d4.js" crossorigin="anonymous"></script>
+
+    <!--CSS propio-->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand" href="#"><img src="img/logo-gym.png" alt="logo-gym" width="150"
+                        height="150"></a>
+                <!--Hamburguesa-->
+                <button class="navbar-toggler bg-dark color-hamburguesa" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#barra_navegacion" aria-controls="barra_navegacion" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Opciones-->
+                <div class="collapse navbar-collapse ms-5" id="barra_navegacion">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#fotos_carousel">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#clases">Clases</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#galeria">Galería</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fin navbar-->
+    </header>
+
+    <main>
+        <!--Home-->
+
+        <section>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8 mx-auto">
+                        <div id="fotos_carousel" class="carousel slide home" data-bs-ride="false">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/home.png" class="d-block w-100 mx-auto" alt="inicio1">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">Tenemos el plan a tu medida</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/home2.png" class="d-block w-100 mx-auto" alt="inicio2">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">Entrenamiento de calidad para todos</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/home3.png" class="d-block w-100 mx-auto" alt="inicio3">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">No te quedes sin entrenar</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#fotos_carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previo</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#fotos_carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Fin home-->
+
+        <!--Nosotros-->
+
+        <article>
+            <div id="nosotros" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-3 titulo">Nosotros</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div data-aos="fade-right"
+                        class="col-xs-8 col-sm-10 col-md-8 col-lg-6 col-xl-4 d-block mx-auto my-auto">
+                        <img src="img/desktop/nosotros-desktop.jpg" width="1200" height="800" alt="nosotros"
+                            class="img-fluid">
+                    </div>
+
+                    <div class="col-md-10 col-lg-6 col-xl-6">
+                        <p class="nosotros-texto">
+                            En Spinaci Fitness Gym <span>mejoramos la calidad de vida de las personas</span> a través de
+                            la
+                            actividad
+                            física, el desarrollo de vínculos sociales y la promoción de hábitos saludables.
+                        </p>
+
+                        <p class="nosotros-texto">
+                            No solo nos centraremos en la parte física, sino que también <span>tendremos como prioridad
+                                tus
+                                emociones, sentimientos y demás</span>, para que no solo seas una persona fuerte
+                            fisicamente.
+                        </p>
+
+                        <p class="nosotros-texto">
+                            Estamos seguros que si entrenas con nosotros <span>te sentirás mejor, mejorarás tu calidad
+                                de sueño,
+                                tu figura, calmaremos tu ansiedad y fortaleceremos tus músculos y huesos.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row justify-content-center mt-lg-5">
+
+                    <div class="col-md-10 col-lg-6 col-xl-6">
+
+                        <p class="nosotros-texto">
+                            Te brindaremos la mejor atención, equipamiento y todas nuestras ganas para que
+                            nos exprimas,
+                            saques lo mejor de nosotros y para que nosotros saquemos lo mejor de vos.
+                        </p>
+
+                        <p class="nosotros-texto">
+                            Eleginos y cada vez que vengas a entrenar a cualquiera de nuestras sedes
+                            <span>te vamos a recomendar
+                                la combinación perfecta de nuestros entrenamientos</span> para que alcances
+                            tu objetivo.
+                        </p>
+
+                        <p class="nosotros-texto">
+                            Lo mejor de la vida está más allá de tu zona de confort. No encajes.<span>
+                                ¡Rompé el molde!</span>
+                        </p>
+                    </div>
+
+
+                    <div data-aos="fade-left" class="col-lg-6 d-none col-xl-4 d-lg-block mx-auto my-auto">
+                        <img src="img/desktop/nosotros2-desktop.jpg" width="1200" height="800" alt="nosotros2"
+                            class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+        <!--Fin nosotros-->
+
+        <!--Servicios-->
+
+        <section>
+
+            <div id="servicios" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-md-3 titulo">Servicios</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-3">
+                <div class="row">
+
+                    <div data-aos="fade-right"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="img/atencion-personalizada.png" class="card-img-top" alt="atencion">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Atención Personalizada</h3>
+                                <p class="card-text text-center">Desarrollamos un plan que se adapta a tus objetivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-right"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="img/profesionalismo.png" class="card-img-top" alt="profesionalismo">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Profesionalismo</h3>
+                                <p class="card-text text-center">Contamos con un staff de entrenadores altamente
+                                    capacitados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="img/equipamiento.png" class="card-img-top" alt="equipamiento">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Equipamiento de Calidad</h3>
+                                <p class="card-text text-center">Contamos con recursos de calidad alta y en buen estado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" class="col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="img/asesoramiento-online.png" class="card-img-top" alt="asesoramiento">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Asesoramiento Online</h3>
+                                <p class="card-text text-center">Estamos para vos 24/7 a través de nuestra APP o por
+                                    este
+                                    sitio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Fin servicios-->
+
+            <!--Clases-->
+
+            <section>
+
+                <div class="container">
+
+                    <div id="clases" class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="text-center mt-4 mb-md-3 titulo">Clases</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-4 d-flex flex-md-row-reverse align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">Crossfit
+                            </h3>
+                            <p class="texto-clases">Metodo de entrenamiento basado en ejercicios constantemente
+                                variados, con
+                                movimientos funcionales
+                                ejecutados a alta intensidad.</p>
+                        </div>
+
+                        <div data-aos="flip-left" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="img/tablet/crossfit-tablet.jpg" alt="crossfit-smart" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="row my-4 align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">
+                                Fisicoculturismo
+                            </h3>
+                            <p class="texto-clases">Actividad física consistente en la realización de un programa de
+                                entrenamiento con pesas en un
+                                gimnasio con la intención de desarrollar y controlar la musculatura, por medio de
+                                diversos tipos
+                                de
+                                ejercicios de fuerza, orientados a generar hipertrofia muscular.</p>
+                        </div>
+
+                        <div data-aos="flip-right" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="img/tablet/culturismo-tablet.jpg" alt="culturismo" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="row my-4 d-flex flex-md-row-reverse align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">
+                                Halterofilia</h3>
+                            <p class="texto-clases">Deporte que consiste en el levantamiento del máximo peso posible en
+                                una
+                                barra cuyos extremos se fijan
+                                varios discos, que son los que determinan el peso final que se levanta.</p>
+                        </div>
+
+                        <div data-aos="flip-left" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="img/desktop/halterofilia-desktop.jpg" alt="halterofilia" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+        <!--Fin clases-->
+
+        <!--Galería-->
+
+        <section>
+
+            <div class="container-fluid">
+
+                <div id="galeria" class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-center mt-4 mb-md-3 titulo">Galería</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--JS Galeria-->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="jquery.fancybox.min.js"></script>
+
+                <div class="row">
+                    <div data-aos="flip-up" class="col-4 col-xl-2">
+                        <a href="img/cansancio.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="img/cansancio.jpg" alt="imagen1" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-down" class="col-4 col-xl-2">
+                        <a href="img/disco-desktop.jpg" data-fancybox="gallery" data-caption="Caption #2">
+                            <img src="img/disco-desktop.jpg" alt="imagen2" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" class="col-4 col-xl-2">
+                        <a href="img/pesas-hombre.jpg" data-fancybox="gallery" data-caption="Caption #3">
+                            <img src="img/pesas-hombre.jpg" alt="imagen3" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-down" class="col-4 col-xl-2  my-xl-0 my-4">
+                        <a href="img/pesas-rusas.jpg" data-fancybox="gallery" data-caption="Caption #4">
+                            <img src="img/pesas-rusas.jpg" alt="imagen4" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" class="col-4 col-xl-2  my-xl-0 my-4">
+                        <a href="img/pesas-sentado.jpg" data-fancybox="gallery" data-caption="Caption #5">
+                            <img src="img/pesas-sentado.jpg" alt="imagen5" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-down" class="col-4 col-xl-2 my-xl-0 my-4">
+                        <a href="img/remo.jpg" data-fancybox="gallery" data-caption="Caption #6">
+                            <img src="img/remo.jpg" alt="imagen6" class="img-fluid" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-10 mx-auto my-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/tUykoP30Gb0" title="Video promocional gimnasio"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Fin galería-->
+
+        <!--Contacto-->
+
+        <div class="container">
+
+            <div id="contacto" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-md-3 titulo">Contacto</h2>
+                        <p class="texto-form">Envianos tu mensaje y nos contactaremos con vos enseguida</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="row">
+                <div class="col-8 mx-auto my-2">
+                    <label for="nombres" class="form-label texto-form">Nombres (*)</label>
+                    <input type="text" class="form-control border-0" id="nombres" placeholder="Ingrese su nombre"
+                        required>
+                </div>
+
+                <div class="col-8 mx-auto my-2">
+                    <label for="apellidos" class="form-label texto-form">Apellidos (*)</label>
+                    <input type="text" class="form-control border-0" id="apellidos" placeholder="Ingrese su apellido"
+                        required>
+                </div>
+
+                <div class="col-8 mx-auto my-2">
+                    <label for="email" class="form-label texto-form">E-mail (*)</label>
+                    <input type="email" class="form-control border-0" id="email"
+                        placeholder="Ingrese su correo electrónico" required>
+                </div>
+
+                <div class="col-8 mx-auto my-2">
+                    <label for="comentario" class="form-label texto-form">Dejanos tu comentario:</label>
+                    <textarea id="comentario" class="form-control border-0" rows="10"
+                        placeholder="Ingrese su comentario o mensaje" aria-describedby="maximos-caracteres"
+                        maxlength="480"></textarea>
+                    <div id="maximos-caracteres" class="form-text texto-form"> Máxima cantidad de caractéres: 480</div>
+                </div>
+
+                <div class="col-8 mx-auto mt-3">
+                    <button class="btn btn-primary d-block mx-auto col-4 rounded-4 color_boton"
+                        type="submit">Enviar</button>
+                    <p class="d-block mx-auto col-5 mt-3 text-center texto-form">Todos los campos con (*) son
+                        obligatorios</p>
+                </div>
+
+            </form>
+
+        </div>
+
+        <!--Fin contacto-->
+
+        <!--Footer-->
+
+        <footer>
+            <div class="container-fluid color-fondo">
+                <div class="container">
+                    <div class="row d-flex flex-md-row-reverse">
+                        <div
+                            class="col-12 col-md-6 my-4 my-md-0 d-flex justify-content-center justify-content-md-end align-items-center">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram iconos mx-3"></i></a>
+                            <a href="https://twitter.com/?lang=es" target="_blank"><i
+                                    class="fa-brands fa-twitter iconos mx-3"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook-f iconos mx-3"></i></a>
+                            <a href="https://ar.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in iconos mx-3"></i></a>
+                        </div>
+
+                        <hr class="d-block d-md-none">
+
+                        <div class="col-12 col-md-6 my-3 d-flex justify-content-center justify-content-md-start">
+                            <ul class="texto-lista text-center text-md-start">
+                                <li class="my-2">Valentino Spinaci</li>
+                                <li class="my-2">Maquetado y Desarrollo Web</li>
+                                <li class="my-2">DMT2B</li>
+                                <li class="my-2">2022</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center mt-md-4 mb-1">
+                            <p class="texto-derechos text-center">Todos los derechos reservados - Spinaci Fitness Gym
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Fin footer-->
+
+    </main>
+
+    <!--Script AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Inicializando AOS-->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
