@@ -1,6 +1,7 @@
 body {
     scroll-behavior: smooth;
     background-color: black;
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
