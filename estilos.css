@@ -1,6 +1,7 @@
 body {
     scroll-behavior: smooth;
     background-color: black;
+    position: relative;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -106,6 +107,19 @@ body {
 .texto-derechos {
     color: #d6d6d6;
     font-size: .90rem;
+}
+
+.boton_subir{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    color: #d6d6d6;
+}
+
+.boton_subir:hover{
+    color: #D92E1E;
+    transition: .5s;
 }
 
 @media (max-width:768px) {
